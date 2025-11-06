@@ -21,24 +21,27 @@ function efectoSkills() {
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if (distancia_skills >= 300) {
-        let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("disenouxui");
-        habilidades[1].classList.add("javascript");
-        habilidades[2].classList.add("htmlcss");
-        habilidades[3].classList.add("database");
-        habilidades[4].classList.add("qatesting");
-        habilidades[5].classList.add("backend");
-        habilidades[6].classList.add("cloud");
-        habilidades[7].classList.add("adobexd");
-        habilidades[8].classList.add("figma");
-        habilidades[9].classList.add("psd");
-        habilidades[10].classList.add("ai");
-        habilidades[11].classList.add("trabajo");
-        habilidades[12].classList.add("compromiso");
-        habilidades[13].classList.add("comunic");
-        habilidades[14].classList.add("dedicacion");
-        habilidades[15].classList.add("proact");
-        habilidades[16].classList.add("adapt");
+        let skills = document.getElementsByClassName("progreso");
+        skills[0].classList.add("javascript");
+        skills[1].classList.add("htmlcss");
+        skills[2].classList.add("react");
+        skills[3].classList.add("vue");
+        skills[4].classList.add("angular");
+        skills[5].classList.add("sqldatabases");
+        skills[6].classList.add("qatesting");
+        skills[7].classList.add("backend");
+        skills[8].classList.add("cloud");
+        skills[9].classList.add("uxuidesign");
+        skills[10].classList.add("adobexd");
+        skills[11].classList.add("figma");
+        skills[12].classList.add("psd");
+        skills[13].classList.add("ai");
+        skills[14].classList.add("teamwork");
+        skills[15].classList.add("commitment");
+        skills[16].classList.add("communication");
+        skills[17].classList.add("dedication");
+        skills[18].classList.add("proactiveness");
+        skills[19].classList.add("adaptation");
     }
 }
 //detectar el scrollin para aplicar la animacion de la barra-skills
@@ -77,3 +80,17 @@ popup.addEventListener("click", function(event) {
         popup.style.display = "none";
     }
 });
+
+// Modo claro / oscuro
+const icon = document.getElementById("icon");
+
+/*icon.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        icon.src = "Objetos UX-UI/sol.png"; // Cambia a ícono de sol para modo claro
+    } else {
+        icon.src = "Objetos UX-UI/luna.png"; // Cambia a ícono de luna para modo oscuro
+    }
+
+});*/
