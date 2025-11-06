@@ -365,19 +365,6 @@
     }
     /*Las clases se agregarán dinámicamente mediante JS*/
     
-    .skills .skill .disenouxui {
-        width: 0%;
-        animation: 2s disenouxui forwards;
-    }
-    
-    @keyframes disenouxui {
-        0% {
-            width: 0%;
-        }
-        100% {
-            width: 75%;
-        }
-    }
     
     .skills .skill .javascript {
         width: 0%;
@@ -406,18 +393,60 @@
             width: 75%;
         }
     }
-    
-    .skills .skill .database {
+
+    .skills .skill .react {
         width: 0%;
-        animation: 2s database forwards;
+        animation: 2s react forwards;
     }
     
-    @keyframes database {
+    @keyframes react {
         0% {
             width: 0%;
         }
         100% {
-            width: 50%;
+            width: 60%;
+        }
+    }
+
+    .skills .skill .vue {
+        width: 0%;
+        animation: 2s vue forwards;
+    }
+    
+    @keyframes vue {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 60%;
+        }
+    }
+
+    .skills .skill .angular {
+        width: 0%;
+        animation: 2s angular forwards;
+    }
+    
+    @keyframes angular {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 60%;
+        }
+    }
+    
+    .skills .skill .sqldatabases {
+        width: 0%;
+        animation: 2s sqldatabases forwards;
+    }
+    
+    @keyframes sqldatabases {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 70%;
         }
     }
     
@@ -431,7 +460,7 @@
             width: 0%;
         }
         100% {
-            width: 65%;
+            width: 70%;
         }
     }
     
@@ -445,7 +474,7 @@
             width: 0%;
         }
         100% {
-            width: 50%;
+            width: 60%;
         }
     }
     
@@ -460,6 +489,21 @@
         }
         100% {
             width: 50%;
+        }
+    }
+
+    
+    .skills .skill .uxuidesign {
+        width: 0%;
+        animation: 2s uxuidesign forwards;
+    }
+    
+    @keyframes uxuidesign {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 75%;
         }
     }
     
@@ -519,12 +563,12 @@
         }
     }
     
-    .skills .skill .trabajo {
+    .skills .skill .teamwork {
         width: 0%;
-        animation: 2s trabajo forwards;
+        animation: 2s teamwork forwards;
     }
     
-    @keyframes trabajo {
+    @keyframes teamwork {
         0% {
             width: 0%;
         }
@@ -533,12 +577,12 @@
         }
     }
     
-    .skills .skill .compromiso {
+    .skills .skill .commitment {
         width: 0%;
-        animation: 2s compromiso forwards;
+        animation: 2s commitment forwards;
     }
     
-    @keyframes compromiso {
+    @keyframes commitment {
         0% {
             width: 0%;
         }
@@ -547,12 +591,12 @@
         }
     }
     
-    .skills .skill .comunic {
+    .skills .skill .communication {
         width: 0%;
-        animation: 2s comunic forwards;
+        animation: 2s communication forwards;
     }
     
-    @keyframes comunic {
+    @keyframes communication {
         0% {
             width: 0%;
         }
@@ -561,12 +605,12 @@
         }
     }
     
-    .skills .skill .dedicacion {
+    .skills .skill .dedication {
         width: 0%;
-        animation: 2s dedicacion forwards;
+        animation: 2s dedication forwards;
     }
     
-    @keyframes dedicacion {
+    @keyframes dedication {
         0% {
             width: 0%;
         }
@@ -575,12 +619,12 @@
         }
     }
 
-    .skills .skill .proact {
+    .skills .skill .proactiveness {
         width: 0%;
-        animation: 2s proact forwards;
+        animation: 2s proactiveness forwards;
     }
     
-    @keyframes proact {
+    @keyframes proactiveness {
         0% {
             width: 0%;
         }
@@ -589,12 +633,12 @@
         }
     }
     
-    .skills .skill .adapt {
+    .skills .skill .adaptation {
         width: 0%;
-        animation: 2s adapt forwards;
+        animation: 2s adaptation forwards;
     }
     
-    @keyframes adapt {
+    @keyframes adaptation {
         0% {
             width: 0%;
         }
